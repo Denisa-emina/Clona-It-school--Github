@@ -1,0 +1,108 @@
+.welcome {
+    height: 50vh;
+}
+
+.welcome h1 {
+    text-align: center;
+}
+
+.courses h2 {
+    padding-top: var(--spacing-large);
+}
+
+.courses h2, .courses .main-paragraph {
+    text-align: center;
+
+}
+
+.courses h2, .courses .main-paragraph, .courses .courses-container {
+    margin-bottom: var(--spacing-large);
+}
+
+.courses .courses-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.courses .course-wrapper {
+    width: calc(100% / 3);
+    padding-right: var(--spacing-small) ;
+    padding-left: var(--spacing-small);
+
+}
+
+.courses .main-paragraph {
+   padding-right: var(--spacing-small); 
+   padding-left: var(--spacing-small);
+}
+
+.courses .course {
+    width: 100%;
+    border: 1px solid #ddd;
+    padding: var(--spacing-tiny);
+    border-radius: 5px;
+    margin-bottom: var(--spacing-medium);
+}
+
+.courses .presantation-class {
+    width: 100%;
+    height: auto;
+    margin-bottom: var(--spacing-large);
+}
+
+@media (max-width: 992px) {
+    .courses .course-wrapper {
+        width: 50%;
+    }
+}
+
+@media (max-width: 768px) {
+    .courses .course-wrapper {
+        width: 100%;
+    }
+
+}
+
+.courses h3 {
+    color: var(--text-primary);
+  }
+  
+  .courses .microsoft-logo {
+    width: 80px;
+    height: auto;
+    vertical-align: middle;
+  }
+  
+  .courses span,
+  .courses .certification {
+    font-size: var(--fs-medium);
+    color: #666;
+  }
+  
+  .courses .material-symbols-outlined {
+    vertical-align: middle;
+  }
+  
+  .courses a {
+    font-size: var(--fs-medium);
+    text-align: center;
+    background-color: var(--button-color);
+    color: var(--text-white);
+    padding: var(--spacing-tiny);
+    border: 1px solid var(--button-color);
+    border-radius: 5px;
+    width: 100px;
+  }
+  
+  .courses h3, .courses .certification, .courses .details, .courses a {
+    margin-bottom: var(--spacing-medium);
+  }
+  
+  .courses .content {
+    padding: 0 var(--spacing-small);
+  }
+  
+  .courses .microsoft-logo, .courses .duration-months, .courses .duration-hours {
+    margin-left: var(--spacing-small);
+  }
+
